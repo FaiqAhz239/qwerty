@@ -1,0 +1,167 @@
+  <!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sugestor</title>
+
+  <style>
+    /* Judul */
+    .h1 {
+      font-family: "brush script mt";
+      font-size: 35px;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    /* Background & body */
+    body {
+      background-image: url('image.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      background-color: #f0f9de;
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+
+    /* Navigasi */
+    ul {
+      list-style-type: none;
+      background-color: #000;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      font-size: 17px;
+      text-align: center;
+      padding: 16px 24px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    li a:hover {
+      background-color: #111;
+    }
+
+    .active {
+      background-color: #04AA6D;
+    }
+
+    /* Layout isi */
+    .flex-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 3% 10%;
+      flex-wrap: wrap;
+    }
+
+    .p1, .p2, .p3 {
+      text-align: center;
+    }
+
+    .gambar1, .gambar2, .gambar3 {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+
+    .gambar1:hover, .gambar2:hover, .gambar3:hover {
+      transform: scale(1.05);
+    }
+
+    .deskripsi {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 16px;
+    }
+
+    /* Responsif untuk HP */
+    @media (max-width: 600px) {
+      ul li {
+        float: none;
+      }
+
+      li a {
+        padding: 12px;
+        font-size: 15px;
+      }
+
+      .flex-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+      }
+
+      .h1 {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigasi -->
+  <ul>
+    <li><a href="http://localhost/Sugestor.html">Home</a></li>
+    <li><a href="http://localhost/SugestorAbsensi.html">Absensi</a></li>
+    <li><a href="https://x.com/Altr239">Social Media</a></li>
+    <li><a href="SugestorDownlink.html">Download</a></li>
+    <li><a href="http://localhost/Sugestor2.html">About</a></li>
+    <li><a href="#ob">Information</a></li>
+    <li style="float:right"><a href="http://localhost/SugestorLogin.html">Login</a></li>
+  </ul>
+
+  <!-- Konten -->
+  <h1 class="h1">Satwa Liar Indonesia</h1>
+
+  <div class="flex-container">
+    <div class="p1">
+      <p><b>Gambar 1</b></p>
+      <img src="promp 1.jpg" alt="gambar satwa 1" class="gambar1">
+    </div>
+    <div class="p2">
+      <p><b>Gambar 2</b></p>
+      <a href="SugestorAbsensi.html">
+        <img src="promp 2.jpg" alt="gambar satwa 2" class="gambar2">
+      </a>
+    </div>
+  </div>
+
+  <p class="deskripsi">
+    Website ini menampilkan informasi dan gambar satwa liar Indonesia yang perlu dilestarikan.
+  </p>
+
+</body>
+</html>
+
+        
+        
+        
+        
+        
+       
+
+
+    
+
+
+
+  
+    
